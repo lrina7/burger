@@ -263,13 +263,14 @@ src: url("../fonts/Gilroy-Semibold.ttf");
     overflow: hidden;
   }
 
-  .order.container {
+  .order .container {
     position: relative;
   }
 
   .order-img {
     position: absolute;
-    right: calc(100% - 1200px);
+    top: 0;
+    right: calc(100% - 764px);
     z-index: -1;
   }
 
